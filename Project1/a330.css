@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(250, 211, 153);
+}
+
+header {
+    background-color: rgb(204, 173, 126);
+    border: 2px solid black;
+    text-align: center;
+}
+
+td, table {
+    border: solid black 1px;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(198, 221, 198);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(233, 235, 126);
+}
+
+#bil {
+    position: absolute;
+    top: 125px;
+    left: 400px;
+    height: 375px;
+    width: 500px;
+    background-image: url(https://airbus-h.assetsadobe2.com/is/image/content/dam/channel-specific/website-/products-and-services/aircraft/header/aircraft-families/A330-family-stage.jpg?wid=1920&fit=fit,1&qlt=85,0);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+}
+
+#bil2 {
+    position: absolute;
+    top: 125px;
+    left: 1000px;
+    height: 375px;
+    width: 375px;
+    background-image: url(https://magazin.lufthansa.com/content/uploads/2016/07/A330-300-Blick-ins-Cockpit-360-Panorama-Startbild-980x653.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+}
+
+#Home {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 80px;
+    width: 80px;
+    background-image: url(https://pngriver.com/wp-content/uploads/2018/04/Download-Airport-PNG-Clipart.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

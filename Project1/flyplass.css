@@ -1,0 +1,157 @@
+body {
+    background-color: lightgray;
+}
+
+
+#Flyplassen {
+background-color: rgb(10, 175, 10);
+height: 1000px;
+border: 3px dotted black;
+}
+
+#Rullebane {
+position: absolute;
+top: 125px;
+left: 200px;
+height: 112px;
+width: 1000px;
+background-image: url(https://www.wpclipart.com/transportation/aircraft/equipment/airport_runway.png);
+background-position: center;
+background-repeat: no-repeat;
+border: 2px solid black;
+background-color: gray;
+}
+
+#taxi {
+    background-color: gray;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    height: 400px;
+    width: 75px;
+    border: 1px solid black;
+}
+
+#taxi2 {
+    background-color: gray;
+    position: absolute;
+    top: 200px;
+    left: 1025px;
+    height: 400px;
+    width: 75px;
+    border: 1px solid black;
+}
+
+
+#parkering {
+    background-color: gray;
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    height: 400px;
+    width: 1225px;
+    border: 1px solid black;
+}
+
+#byggning {
+    background-color: white;
+}
+
+#a380 {
+position: absolute;
+top: 600px;
+left: 200px;
+height: 200px;
+width: 200px;
+background-image: url(https://airbus-h.assetsadobe2.com/is/image/content/dam/channel-specific/website-/products-and-services/aircraft/aircraft_specifications/passengers/A380-800_T.png?wid=1000&fit=constrain,1&fmt=png-alpha);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#a330 {
+    position: absolute;
+    top: 600px;
+    left: 600px;
+    height: 200px;
+    width: 200px;
+    background-image: url(https://airbus-h.assetsadobe2.com/is/image/content/dam/channel-specific/website-/products-and-services/aircraft/aircraft_specifications/passengers/A330-300_T.png?wid=1000&fit=constrain,1&fmt=png-alpha);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+#b737 {
+    position: absolute;
+    top: 600px;
+    left: 1020px;
+    height: 200px;
+    width: 200px;
+    background-image: url(https://www.sccpre.cat/mypng/full/22-222734_aircraft-specifications-boeing-777.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 172px;
+}
+
+h1 {
+    color: blue;
+    border: 2px solid green;
+    top: 50px;
+    position: static;
+}
+
+#flyfly {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 100px;
+    top: 100px;  
+    background-image: url(https://businessaircraft.bombardier.com/sites/default/files/styles/retina_1430x1430/public/2017-09/specs-render-top_0.png?itok=ebCJRYUs);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: fly 7s infinite;
+    transform: rotate(90deg)
+}
+
+@keyframes fly {
+    0%  {    left: -100px; top: 110px}
+    100% {  left: 2000px; top: 110px}
+}
+
+#meny {
+    position: fixed;
+    left: 0px;
+    top: -10px;
+    list-style: none;
+    margin: -2px;
+	width: 1000px;
+    font-family: sans-serif;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: gray;
+    width: 100%;
+    border-radius: 5px;
+    left: -2px;
+    z-index: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center; 
+}
+
+#meny li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+    border:1px solid #000;
+    height: 1em;
+    padding: 2px;
+    background-color: lightblue;
+    border: 1px solid darkgray;
+    
+}
+
+#meny li:hover {
+    background-color: greenyellow;
+    color: lightcoral;
+}

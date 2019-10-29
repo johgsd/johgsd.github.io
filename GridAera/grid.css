@@ -1,0 +1,28 @@
+#hode {
+    grid-area: hode;
+}
+
+#skulder {
+    grid-area: skulder;
+}
+
+#kne {
+    grid-area: kne;
+}
+
+#toe {
+    grid-area: toe;
+}
+
+
+#kropp {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 100px 200px 100px;
+
+    grid-template-areas:
+        "hode hode   .  skulder"
+        "kne kne   .  skulder"
+        "toe  . .             .";
+}
+

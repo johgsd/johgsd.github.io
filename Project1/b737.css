@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(250, 211, 153);
+}
+
+header {
+    background-color: rgb(204, 173, 126);
+    border: 2px solid black;
+    text-align: center;
+}
+
+td, table {
+    border: solid black 1px;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(198, 221, 198);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(233, 235, 126);
+}
+
+#bil {
+    position: absolute;
+    top: 125px;
+    left: 400px;
+    height: 375px;
+    width: 525px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9e/Delta_Air_Lines_Boeing_737-832%3B_N3747D%40LAX%3B10.10.2011_622in_%286482376485%29.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+}
+
+#bil2 {
+    position: absolute;
+    top: 125px;
+    left: 1000px;
+    height: 375px;
+    width: 375px;
+    background-image: url(https://imagevars.gulfnews.com/2019/03/20/The_cockpit_of_a_grounded_Lion_Air_Boeing_Co_16a30b38f48._737_Max_8__20190320_resources1_16a30b38f48_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+}
+
+#Home {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 80px;
+    width: 80px;
+    background-image: url(https://pngriver.com/wp-content/uploads/2018/04/Download-Airport-PNG-Clipart.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
